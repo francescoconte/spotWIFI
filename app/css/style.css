@@ -374,7 +374,6 @@ li {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -543,7 +542,7 @@ header .header--nav--block .flag--block a.active {
 }
 .about {
   background: #fff;
-  height: 585px;
+  height: 400px;
 }
 .about .content {
   height: 100%;
@@ -564,11 +563,139 @@ header .header--nav--block .flag--block a.active {
 .about .about--one--txt h2 {
   color: #000;
   text-align: left;
-  margin-bottom: 65px;
+  margin-bottom: 38px;
 }
 .about .about--one--txt p {
   font-size: 18px;
   float: left;
   width: 100%;
   line-height: 1.8;
+}
+.works {
+  background: #201c33;
+  height: 520px;
+}
+.works .content {
+  height: 100%;
+  display: table;
+}
+.works h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 55px;
+  margin-top: 32px;
+}
+.works .work--table--block {
+  float: left;
+  width: 100%;
+}
+.works .work--table--block .woork--one {
+  float: left;
+  width: 33.33333%;
+  display: inline-block;
+  position: relative;
+}
+.works .work--table--block .woork--one .work--ico {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width: 155px;
+  height: 100px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+.works .work--table--block .woork--one p {
+  font-family: 'Conv_Gotham-Light-Regular', sans-serif;
+  display: block;
+  padding: 32px 50px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}
+.works .work--table--block .one::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 10px;
+  right: -15px;
+  width: 30px;
+  height: 50px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background: url(../img/stick.svg);
+}
+.projects {
+  height: 500px;
+  color: #fff;
+  background: url(../img/coff.png);
+  background-position: CENTER CENTER;
+  background-repeat: no-repeat !important;
+  background-size: COVER !important;
+  display: table;
+}
+.projects .content {
+  height: 100%;
+  display: table;
+}
+.projects h2 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #fff;
+  float: left;
+  width: 100%;
+}
+.projects article {
+  float: left;
+  width: 100%;
+}
+.projects article.one {
+  padding-right: 100px;
+}
+.projects article.two {
+  padding-left: 100px;
+}
+.projects img {
+  width: 100%;
+  height: auto;
+}
+.projects .about--one--txt {
+  float: left;
+  width: 50%;
+}
+.projects .about--one--txt h3 {
+  font-family: 'gothambold1', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.projects .about--one--txt p {
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  line-height: 1.8;
+  color: #fff;
+  font-family: 'Conv_Gotham-Light-Regular', sans-serif;
+}
+.projects .about--one--txt .button {
+  float: left;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px 12px;
+  border-radius: 8px;
+  border: solid 1px #fff;
+  margin-top: 32px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.projects .about--one--txt .button:hover {
+  color: #b52dc0;
+  background: #fff;
+  border: solid 1px #b52dc0;
 }

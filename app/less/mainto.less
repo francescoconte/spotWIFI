@@ -1,7 +1,7 @@
 @import "grandfile.less";
 
 
-h1, h2, h3, h4, h5, h6 { .m-speed;  font-family: @fonttxt2; text-align: center; font-weight: 300;}
+h1, h2, h4, h5, h6 { .m-speed;  font-family: @fonttxt2; text-align: center; font-weight: 300}
 
 h1 {font-size: 45px;}
 h2 {font-size: 45px;}
@@ -49,23 +49,53 @@ h1 {color: #fff;  font-family: @fonttxt2; font-size: 45px; text-align: center; f
 }
 }
 
-.about {background: #fff; height: 585px;
+.about {background: #fff; height: 400px;
 .content {height: 100%;} 
 article {padding-right: 100px;}
 img {width: 100%; height: auto;}    
 .about--one--txt {float: left; width: 50%; height: 100%; display: inline-table;
-h2 {color: #000; text-align: left; margin-bottom: 65px;} 
+h2 {color: #000; text-align: left; margin-bottom: 38px;} 
 p {font-size: 18px; float: left; width: 100%; line-height: 1.8;}
     
 }
+}
+
+.works {background: #201c33; height: 520px;
+.content {height: 100%; display: table;}
+h2 {color: #fff; text-align: center; margin-bottom: 55px; margin-top: 32px;}
     
+.work--table--block {float: left; width: 100%;
+.woork--one {float: left; width: 33.33333%; display: inline-block; position: relative;
+.work--ico {position: relative; margin: 0 auto; display: block; width: 155px; height: 100px; .bgCCC;} 
+p { font-family: @fonttxt2; display: block; padding: 32px 50px; font-size: 16px; color: #fff; text-align: center; line-height: 1.5;}
+}
+    
+.one::before {content: ''; position: absolute; display: block; top: 10px; right: -15px; width: 30px; height: 50px; .bgCCC; background: url(../img/stick.svg);}
 
-    }
+}
+
+}
 
 
+.projects {height: 500px; color: #fff; background: url(../img/coff.png); .bgCC; display: table;
+.content {height: 100%; display: table;} 
+h2 {color: #000; text-align: center; margin-bottom: 60px; color: #fff;float: left; width: 100%;} 
+article { float: left; width: 100%;}
+article.one {padding-right: 100px;}
+article.two {padding-left: 100px;}
+img {width: 100%; height: auto;}    
+.about--one--txt {float: left; width: 50%;
 
+h3 {font-family: @fontB; font-size: 25px; text-transform: uppercase; margin-bottom: 25px;}
+p {font-size: 18px; float: left; width: 100%; line-height: 1.8; color: #fff; font-family: @fonttxt2;}
+.button {float: left; display: inline-block; color: #fff; font-size: 16px; padding: 10px 20px 12px; border-radius: 8px; border: solid 1px #fff; margin-top: 32px;
+.m-speed;}
+    
+.button:hover {color: #b52dc0; background: #fff; border: solid 1px #b52dc0;}
 
+}
 
+}
 
 
 @media screen and (min-width:1200px) and (max-width:1400px)   {
