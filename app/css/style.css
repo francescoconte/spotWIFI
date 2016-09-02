@@ -400,6 +400,14 @@ h4 {
 h6 {
   font-size: 13px;
 }
+.button {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px 12px;
+  border-radius: 8px;
+  border: solid 1px;
+  cursor: pointer;
+}
 .content {
   width: 1180px;
   position: relative;
@@ -416,7 +424,7 @@ h6 {
 .wrap footer {
   float: left;
   width: 100%;
-  min-height: 150px;
+  min-height: 20px;
 }
 header {
   position: fixed;
@@ -698,4 +706,127 @@ header .header--nav--block .flag--block a.active {
   color: #b52dc0;
   background: #fff;
   border: solid 1px #b52dc0;
+}
+.contacts {
+  background: #fff;
+  height: 740px;
+}
+.contacts .content {
+  height: 100%;
+}
+.contacts article,
+.contacts form {
+  padding-right: 100px;
+}
+.contacts .bottom {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.contacts img {
+  width: 100%;
+  height: auto;
+}
+.contacts .contact--one--txt {
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: inline-table;
+}
+.contacts .contact--one--txt h2 {
+  color: #000;
+  text-align: left;
+  margin-bottom: 38px;
+}
+.contacts .contact--one--txt .inp--block {
+  float: left;
+  width: 100%;
+  margin: 13px 0;
+}
+.contacts .contact--one--txt .inp--block textarea,
+.contacts .contact--one--txt .inp--block input {
+  padding: 20px 24px;
+  background: #ededed;
+  border-radius: 6px;
+  width: 100%;
+}
+.contacts .contact--one--txt .inp--block textarea {
+  height: 100px;
+  resize: none;
+}
+.contacts .contact--one--txt .select-block {
+  padding: 20px 24px;
+  background: #ededed;
+  border-radius: 6px;
+  width: 100%;
+  float: left;
+}
+.contacts .contact--one--txt .select-block select {
+  float: left;
+  width: 100%;
+  background: transparent;
+}
+.contacts .button {
+  float: left;
+  color: #fff;
+  background: #ff2e2e;
+  border: solid 1px #fff;
+  margin-top: 13px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.contacts .button:hover {
+  color: #ff2e2e;
+  background: transparent;
+  border: solid 1px #ff2e2e;
+}
+footer {
+  float: left;
+  width: 100%;
+  height: 106px;
+  background: #5e027a;
+}
+footer .content {
+  height: 100%;
+  display: table;
+}
+footer a.phone {
+  float: left;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  margin-left: 45px;
+}
+footer a.phone span {
+  margin-left: 35px;
+}
+footer a.mail {
+  float: right;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+footer a.mail span {
+  margin-left: 35px;
+}
+footer a.phone::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -1px;
+  left: -45px;
+  width: 30px;
+  height: 30px;
+  background: url(../img/phone.svg);
+}
+footer a.mail::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: -65px;
+  width: 46px;
+  height: 30px;
+  background: url(../img/mail.svg);
 }

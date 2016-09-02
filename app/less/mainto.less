@@ -9,14 +9,14 @@ h3 {font-size: 28px;}
 h4 {font-size: 20px;}
 h6 {font-size: 13px;}
 
-
+.button {display: inline-block; font-size: 16px; padding: 10px 20px 12px; border-radius: 8px; border: solid 1px; cursor: pointer;}
 
 .content {width: 1180px; position: relative; display: block; margin: 0 auto;}
 
 //wrapper for all page besides index
 
 .wrap {float: left; width: 100%; top: 70px; position: relative;
-section, footer {float: left; width: 100%; min-height: 150px;}
+section, footer {float: left; width: 100%; min-height: 20px;}
 }
 
 
@@ -95,6 +95,47 @@ p {font-size: 18px; float: left; width: 100%; line-height: 1.8; color: #fff; fon
 
 }
 
+}
+
+
+.contacts {background: #fff; height: 740px;
+.content {height: 100%;} 
+article, form {padding-right: 100px;}
+.bottom {display: table-cell; vertical-align: bottom;}
+img {width: 100%; height: auto;}    
+.contact--one--txt {float: left; width: 50%; height: 100%; display: inline-table;
+h2 {color: #000; text-align: left; margin-bottom: 38px;} 
+.inp--block {float: left; width: 100%; margin: 13px 0;
+textarea, input { padding: 20px 24px; background: #ededed; border-radius: 6px; width: 100%;}  
+    textarea {height: 100px; resize: none;}
+}
+.select-block {padding: 20px 24px; background: #ededed; border-radius: 6px; width: 100%; float: left; 
+select {float: left; width: 100%; background: transparent;}    
+}
+    
+} 
+    
+.button {float: left; color: #fff; background: #ff2e2e;  border: solid 1px #fff; margin-top: 13px;
+.m-speed;}
+    
+.button:hover {color: #ff2e2e; background: transparent; border: solid 1px #ff2e2e;}   
+    
+}
+
+
+footer {float: left; width: 100%; height: 106px; background: #5e027a;
+.content{height: 100%; display: table;}
+    
+a.phone {float: left; font-size: 16px; color: #fff; position: relative; margin-left: 45px;
+span {margin-left: 35px;}}   
+
+a.mail {float: right; font-size: 16px; color: #fff; position: relative;
+span {margin-left: 35px;}}
+
+a.phone::before {content: ''; display: block; position: absolute; top:-1px; left:-45px; width: 30px; height: 30px; background: url(../img/phone.svg);}    
+a.mail::before {content: ''; display: block; position: absolute; top: -3px; left: -65px; width: 46px; height: 30px; background: url(../img/mail.svg);}    
+    
+    
 }
 
 
