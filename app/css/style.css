@@ -830,3 +830,333 @@ footer a.mail::before {
   height: 30px;
   background: url(../img/mail.svg);
 }
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .home {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1199px) {
+  h2 {
+    font-size: 35px !important;
+  }
+  .about .about--one--txt h2 {
+    margin-bottom: 25px;
+  }
+  .home {
+    height: 550px;
+  }
+  .content {
+    width: 950px;
+  }
+  .about .about--one--txt p {
+    font-size: 15px;
+  }
+  .about {
+    height: 340px;
+  }
+  .works .work--table--block .woork--one p {
+    padding: 32px 50px;
+    font-size: 14px;
+  }
+  .projects .about--one--txt p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .projects h2 {
+    margin-bottom: 45px;
+  }
+  .projects .about--one--txt h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  .projects .about--one--txt .button {
+    font-size: 14px;
+  }
+  .projects {
+    height: 400px;
+  }
+  .contacts .contact--one--txt .inp--block textarea,
+  .contacts .contact--one--txt .inp--block input {
+    padding: 10px 16px;
+  }
+  .contacts .contact--one--txt .select-block {
+    padding: 10px 16px;
+  }
+  .contacts {
+    height: 610px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .home .home--table--txt h1 {
+    color: #fff;
+    font-family: 'Conv_Gotham-Light-Regular', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  .about .about--one--txt h2 {
+    margin-bottom: 20px;
+  }
+  header .header--nav--block nav {
+    display: none;
+    float: right;
+  }
+  header .header--nav--block {
+    width: auto;
+  }
+  .about .about--one--txt {
+    width: 100%;
+  }
+  .about article {
+    padding-right: 0px;
+  }
+  .about .txt-image {
+    display: none ;
+  }
+  .works {
+    height: auto;
+    padding: 35px 0;
+  }
+  .woork--one {
+    float: left;
+    width: 100% !important;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .home {
+    height: 450px;
+  }
+  .content {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .about .about--one--txt p {
+    font-size: 16px;
+  }
+  .about {
+    height: 340px;
+  }
+  .works .work--table--block .woork--one p {
+    padding: 32px 50px;
+    font-size: 16px;
+  }
+  .works .work--table--block .one::before {
+    content: '';
+    display: none;
+  }
+  .projects {
+    height: auto;
+  }
+  .projects article.two {
+    padding-left: 0px;
+  }
+  .projects article.one {
+    padding-right: 0px;
+  }
+  .projects .about--one--txt p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .projects .about--one--txt {
+    float: left;
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  .projects h2 {
+    margin: 45px 0;
+  }
+  .txt-imge {
+    display: none !important;
+  }
+  .contacts .contact--one--txt {
+    width: 100%;
+  }
+  .projects .about--one--txt h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  .projects .about--one--txt .button {
+    font-size: 14px;
+  }
+  .projects {
+    height: 400px;
+  }
+  .contacts .contact--one--txt .inp--block textarea,
+  .contacts .contact--one--txt .inp--block input {
+    padding: 10px 16px;
+  }
+  .contacts .contact--one--txt .select-block {
+    padding: 10px 16px;
+  }
+  .contacts {
+    height: 610px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .home .home--table--txt h1 {
+    color: #fff;
+    font-family: 'Conv_Gotham-Light-Regular', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+  }
+  header .header--logo--block a.logo {
+    width: 112px;
+    height: 35px;
+    display: block;
+    background-position: CENTER CENTER !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background: url(../img/logo.png);
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  .about .about--one--txt h2 {
+    margin-bottom: 20px;
+  }
+  header .header--nav--block nav {
+    display: none;
+    float: right;
+  }
+  header .header--nav--block {
+    width: auto;
+  }
+  .about .about--one--txt {
+    width: 100%;
+  }
+  .about article {
+    padding-right: 0px;
+  }
+  .about .txt-image {
+    display: none ;
+  }
+  .works {
+    height: auto;
+    padding: 35px 0;
+  }
+  .woork--one {
+    float: left;
+    width: 100% !important;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .home {
+    height: 360px;
+  }
+  .content {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .about .about--one--txt p {
+    font-size: 16px;
+  }
+  .about {
+    height: 340px;
+  }
+  .works .work--table--block .woork--one p {
+    padding: 32px 0px;
+    font-size: 16px;
+  }
+  .works .work--table--block .one::before {
+    content: '';
+    display: none;
+  }
+  .projects {
+    height: auto;
+  }
+  .projects article.two {
+    padding-left: 0px;
+  }
+  .projects article.one {
+    padding-right: 0px;
+  }
+  .projects .about--one--txt p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .projects .about--one--txt {
+    float: left;
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  .projects h2 {
+    margin: 45px 0;
+  }
+  .txt-imge {
+    display: none !important;
+  }
+  .contacts .contact--one--txt {
+    width: 100%;
+  }
+  .projects .about--one--txt h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  .projects .about--one--txt .button {
+    font-size: 14px;
+  }
+  .projects {
+    height: 400px;
+  }
+  .contacts .contact--one--txt .inp--block textarea,
+  .contacts .contact--one--txt .inp--block input {
+    padding: 10px 16px;
+  }
+  .contacts .contact--one--txt .select-block {
+    padding: 10px 16px;
+  }
+  .contacts {
+    height: 610px;
+  }
+  .contacts article,
+  .contacts form {
+    padding-right: 0px;
+  }
+  footer {
+    height: auto;
+  }
+  footer a.phone {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    margin-left: 0px;
+    margin: 15px 0;
+  }
+  footer a.mail {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    margin-left: 0px;
+    margin: 15px 0;
+  }
+  footer a.phone::before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 18px;
+    left: -45px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/phone.svg);
+  }
+  footer a.mail::before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 16px;
+    left: -65px;
+    width: 45px;
+    height: 30px;
+    background: url(../img/mail.svg);
+  }
+}
